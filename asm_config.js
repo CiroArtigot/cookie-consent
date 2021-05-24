@@ -7,7 +7,7 @@
 	if(lng=='es-ES') {
 		
 		var asmconfig = {
-			gaid : 'UA-59785080-1',
+			gaid : 'xxxxxx',
 			ad_not_acepted : 'Estado: <strong>Aceptas</strong> las cookies necesarias.',
 			ad_acepted : 'Estado: <strong>Has aceptado</strong> todas las cookies.',
 			ad_acepted_stats : 'Estado: <strong>Has aceptado</strong> las cookies necesarias y de estadísticas.',
@@ -23,7 +23,7 @@
 	} else {
 		
 		var asmconfig = {
-			gaid : 'UA-59785080-1',
+			gaid : 'xxxx',
 			ad_not_acepted : 'State: <strong>Aceptas</strong> las cookies necesarias.',
 			ad_acepted : 'State: <strong>Has aceptado</strong> todas las cookies.',
 			ad_acepted_stats : 'State: <strong>Has aceptado</strong> las cookies necesarias y de estadísticas.',
