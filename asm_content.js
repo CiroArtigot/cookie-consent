@@ -104,20 +104,16 @@
 			//UPDATE GTAG
 			if(modo==1) gtag('consent', 'update', {'analytics_storage': 'granted'});	
 			if(modo==2) gtag('consent', 'update', {'ad_storage': 'granted', 'analytics_storage': 'granted'});	
-			
-			//HERE YOU CAN ENTER YOUR OWN SCRIPTS
-			//loadjs('/media/aceptar.js');			
-			/* insert code here */	
+
 			if(modo==2) {
 				
-				loadjs('https://cdn.onesignal.com/sdks/OneSignalSDK.js');
-					window.OneSignal = window.OneSignal || [];
-					OneSignal.push(function() {
-					OneSignal.init({
-					appId: "6e9d2ebf-e383-4e4d-9944-a1faf87f7a3d",
-					});
-					});	
+				//HERE YOU CAN ENTER YOUR OWN SCRIPTS
+				//loadjs('/media/aceptar.js');	
+				
+				/* insert code here */	
 
+				// alert('hello world this is cookie mode 2');
+				
 				/* end code */
 
 				var scripts = document.getElementsByTagName('script');			
